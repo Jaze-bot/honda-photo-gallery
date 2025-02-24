@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Honda Photo Gallery (Debugged)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="image">Hover over a Honda image below to display here.</div>
+
+<div id="gallery">
+  <div class="preview" onmouseover="upDate(this)" onmouseout="unDo()" onclick="displayImage(this)"><img alt="Honda Civic" src="images/honda_civic.jpg" data-debug="civic"></div>
+  <div class="preview" onmouseover="upDate(this)" onmouseout="unDo()" onclick="displayImage(this)"><img alt="Honda Accord" src="images/honda_accord.jpg" data-debug="accord"></div>
+  <div class="preview" onmouseover="upDate(this)" onmouseout="unDo()" onclick="displayImage(this)"><img alt="Honda CR-V" src="images/honda_crv.jpg" data-debug="crv"></div>
+  <div class="preview" onmouseover="upDate(this)" onmouseout="unDo()" onclick="displayImage(this)"><img alt="Honda Pilot" src="images/honda_pilot.jpg" data-debug="pilot"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
